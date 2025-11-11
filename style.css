@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.navbar-nav {
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: rgb(180, 180, 180) !important;
+}
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+.btn-kontak {
+  border: 3px solid white;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.btn-kontak:hover {
+  background-color: white;
+  color: #6f42c1;
+}
+.home-custom {
+  height: 100vh;
+  background: url(./assets/home-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.home-custom a {
+  font-weight: bold;
+}
+@media (max-width: 576px) {
+    .btn-beranda { 
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+.btn-solid,
+.btn-modal {
+  color: white;
+  background-color: #6f42c1;
+  border: 3px solid #6f42c1;
+  transition: 0.3s ease;
+}
+
+.btn-solid:hover,
+.btn-modal:hover {
+  background-color: #4e2d8c;
+  color: white;
+  border: 3px solid #4e2d8c;
+  transition: 0.3s ease;
+}
+.btn-outline-light:hover {
+  color: #6f42c1;
+}
+
+.btn-outline-about {
+  color: #6f42c1;
+  background-color: transparent;
+  border: 3px solid #6f42c1;
+}
+.btn-outline-about:hover {
+  color: white;
+  background-color: #6f42c1;
+  border: 3px solid #6f42c1;
+}
+#bimbingan .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+#bimbingan .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+#bimbingan i {
+  color: #6f42c1;
+}
+.btn-outline-konsultasi {
+  color: #6f42c1;
+  background-color: transparent;
+  border: 1px solid #6f42c1;
+  bottom: 0;
+}
+.btn-outline-konsultasi:hover {
+  color: white;
+  background-color: #6f42c1;
+  border: 1px solid #6f42c1;
+}
+.navigasi {
+  transition: 0.3s;
+}
+.navigasi:hover {
+  padding-left: 5px;
+  color: black;
+  transition: 0.3s;
+}
